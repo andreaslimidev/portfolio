@@ -67,13 +67,6 @@ body {
   font-size: 60px;
 }
 
-@media only screen and (max-width: 627px) {
-
-   #header h1 {
-      font-size: 25px;
-   }
-
-}
 
 .image-cropper {
     width: 130px;
@@ -163,6 +156,27 @@ body {
   padding-left: 15px;
 }
 
+#contact button {
+  margin-top: 15px;
+}
+
 footer {
   margin-top: 150px;
+}
+
+
+@media only screen and (max-width: 627px) {
+
+   #header h1 {
+      font-size: 25px;
+   }
+
+   h1, h2, h3 {
+     font-size: 20px !important;
+   }
+
+   p {
+     font-size: 15px;
+   }
+
 }
