@@ -1,0 +1,168 @@
+html,
+body,
+#header{
+  height: 100%;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  line-height: 27px;
+}
+
+
+body {
+
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.navbar .navbar-brand {
+  letter-spacing: 6px;
+  font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.navbar .navbar-expand-lg .navbar-light .bg-light .border-bottom .fixed-top {
+  margin-bottom: 40px;
+}
+
+#nav-links {
+  margin-right: 7rem;
+}
+
+#nav-links .nav-item{
+  margin-left: 2rem;
+  letter-spacing:1px;
+}
+
+#header {
+
+  background-color: #f2f3f7;
+  height: 75%;
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+
+#header .container-fluid {
+  width: 100%;
+}
+
+#header h1 {
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 627px) {
+
+   #header h1 {
+      font-size: 25px;
+   }
+
+}
+
+.image-cropper {
+    width: 130px;
+    height: 130px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 117px;
+}
+
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+  filter: grayscale(100%);
+
+}
+
+#bio {
+  margin-top: 25px;
+  padding: 20px
+}
+
+#about {
+  border-right: 1px solid black;
+}
+
+#bio p {
+  color: #7e8396;
+}
+
+.infocard {
+  padding: 30px;
+}
+
+.section-title {
+  font-size: 28px;
+}
+
+#social {
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+#social a{
+  margin-left: 8px;
+}
+
+#portfolio {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.projects {
+  margin-top: 80px;
+}
+
+.projectpic {
+  width: 300px;
+  height: auto;
+}
+
+.project-title {
+  margin-top: 15px;
+}
+
+#contact {
+  margin-top: 130px;
+}
+
+#contact h1 {
+  text-align: center;
+}
+
+#contact-form {  margin-top: 60px;
+}
+
+#contact-caption {
+  text-align: left;
+}
+
+#contact-caption p {
+  margin-top: 90px;
+  border-left: 1px solid black;
+  padding-left: 15px;
+}
+
+footer {
+  margin-top: 150px;
+}
